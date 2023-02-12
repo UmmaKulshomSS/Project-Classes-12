@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fullwebsite{
+    width: 45%;
+    margin: auto;
+    text-align: center;
+}
+.menu ul{
+    background-color: #000;
+}
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    margin-left: 30px;
+    list-style: none;
+}
+.menu ul li a{
+    color: #fff;
+    padding: 30px 0;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Dropdown Menu 1*/
+.menu ul li ul.dropdown1{
+    width: 250px; 
+    position: absolute;
+    top: 100%;
+    left: 0;
+    visibility: hidden;
+    transition: all .5s ease;
+    opacity: 0;
+}
+.menu ul li:hover ul.dropdown1{
+    visibility: visible;
+    opacity: 1;
+ }
+.menu ul li ul.dropdown1 li{
+    display: block;
+    margin-left: 0;
+}
+.menu ul li ul.dropdown1 li a{
+    display: block;
+    background-color: #222;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    transition: .5s;
+}
+.menu ul li ul.dropdown1 li a:hover{
+    background-color: #3d71d7;
+    color: #fff;
+    padding-left: 10px;
+}
+
+/* Dropdown menu2 */
+.menu ul li ul.dropdown1 li ul.dropdown2{
+    left: 100%;
+    top: 0;
+    position: absolute;
+    width: 250px;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.menu ul li ul.dropdown1 li:hover ul.dropdown2{
+    visibility: visible;
+    opacity: 1;
+}
+.menu ul li ul li:hover>a{
+    background-color: #3d71d7;
+}
+.banner{
+    background: url(https://i.ibb.co/6DqT40c/young-mens.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 300px;
+    margin-bottom: 20px;
+}
+.banner h1{
+    background-color: #fff;
+    padding: 10px 0;
+}
+.banner h3{
+    background-color: #fff;
+    margin: 0 -275px;
+}
+button{
+    background-color: red;
+    padding: 10px 15px;
+    color: #fff;
+    border: 1px solid red;
+}
+button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.list-style1 h2{
+    margin: 50px 0px 10px 0;
+    font-size: 30px;
+}
+.list-style1{
+    margin-bottom: 50px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.list-style2 h2{
+    margin: 50px 0px 10px 0;
+    font-size: 30px;
+}
+.list-style2{
+    margin-bottom: 50px;
+}
+.form{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.email {
+    padding: 5px;
+    padding-right: 300px;
+    border-bottom: 1px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.btn{
+    padding: 6px 15px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    margin-left: -5px;
+}
+.ls-type{
+    border: 2px dotted rgb(237, 235, 235);
+    margin-top: 25px;
+    padding-bottom: 30px;
+}
+.ls-type h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.ol-type{
+    list-style: lower-roman;
+    display: inline-block;
+    margin-right: 10px;
+}
+.ul-type{
+    display: inline-block;
+    margin-right: 25px;
+    list-style-position: inside;
+}
+.ol-type2{
+    list-style: lower-greek;
+    display: inline-block;
+}
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+.icon-menu{
+    padding: 20px 0;
+    display: inline-block;
+}
+.footer i{
+    background-color: #5ea5fa;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color: black;
+    margin-right: 10px;
+    line-height: 40px;
+    display: inline-block;
+}
+
